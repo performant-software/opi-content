@@ -1,0 +1,80 @@
+{
+  "branding": {
+    "header": {
+      "title": "OPI Staging"
+    }
+  },
+  "core_data": {
+    "url": "https://fairdata.staging.performant.studio",
+    "project_ids": [
+      "284"
+    ]
+  },
+  "detail_pages": {
+    "models": {
+      "places": {},
+      "events": {},
+      "organizations": {},
+      "people": {}
+    }
+  },
+  "i18n": {
+    "default_locale": "en",
+    "locales": [
+      "en"
+    ]
+  },
+  "layers": [
+    {
+      "name": "Base map (TODO: replace with the project MapTiler style URL + key)",
+      "layer_type": "vector",
+      "url": "TODO_MAPTILER_STYLE_URL",
+      "overlay": false
+    }
+  ],
+  "search": [
+    {
+      "name": "places",
+      "route": "places",
+      "geosearch": true,
+      "facets": [],
+      "map": {
+        "geometry": "geometry",
+        "max_zoom": 14,
+        "zoom_to_place": true
+      },
+      "result_card": {
+        "title": "name"
+      },
+      "typesense": {
+        "host": "TODO_TYPESENSE_HOST",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "TODO_SEARCH_ONLY_KEY",
+        "index_name": "TODO_opi_staging_places",
+        "query_by": "name"
+      }
+    },
+    {
+      "name": "events",
+      "route": "events",
+      "facets": [],
+      "map": {
+        "geometry": "geometry",
+        "max_zoom": 14,
+        "zoom_to_place": true
+      },
+      "result_card": {
+        "title": "name"
+      },
+      "typesense": {
+        "host": "TODO_TYPESENSE_HOST",
+        "port": 443,
+        "protocol": "https",
+        "api_key": "TODO_SEARCH_ONLY_KEY",
+        "index_name": "TODO_opi_staging_events",
+        "query_by": "name"
+      }
+    }
+  ]
+}
