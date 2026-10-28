@@ -35,7 +35,7 @@
   "search": [
     {
       "name": "places",
-      "route": "places",
+      "route": "/places",
       "geosearch": true,
       "facets": [],
       "map": {
@@ -57,7 +57,7 @@
     },
     {
       "name": "events",
-      "route": "events",
+      "route": "/events",
       "facets": [],
       "map": {
         "geometry": "geometry",
