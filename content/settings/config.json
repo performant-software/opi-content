@@ -18,6 +18,12 @@
       "people": {}
     }
   },
+  "content": {
+    "collections": [
+      "paths",
+      "posts"
+    ]
+  },
   "i18n": {
     "default_locale": "en",
     "locales": [
