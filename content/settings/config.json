@@ -32,9 +32,9 @@
   },
   "layers": [
     {
-      "name": "Base map (TODO: replace with the project MapTiler style URL + key)",
+      "name": "dataviz",
       "layer_type": "vector",
-      "url": "TODO_MAPTILER_STYLE_URL",
+      "url": "https://api.maptiler.com/maps/dataviz/style.json?key=2Ld85tJXAlKbCzJq2KSv",
       "overlay": false
     }
   ],

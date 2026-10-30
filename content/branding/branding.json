@@ -1,5 +1,11 @@
 {
   "title": "OPI Staging",
+  "font_header": "Baskervville",
+  "font_body": "DM Sans",
+  "primary_color": "#B43F48",
+  "secondary_color": "#000000",
+  "tertiary_color": "#7D4E4E",
+  "background_color": "#FBEFE7",
   "footer": {
     "allow_login": false
   }
