@@ -21,7 +21,12 @@ sections:
     top_margin: 'pt-[16px] lg:pt-[32px]'
     bottom_margin: 'pb-[16px] lg:pb-[32px]'
     title: Our Mission
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis nec libero a suscipit. In at volutpat lacus. Aliquam feugiat, nulla accumsan venenatis aliquet, est quam iaculis magna, nec facilisis nisl nisi non lectus. '
+    description: |-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis nec libero a suscipit. In at volutpat lacus. Aliquam feugiat, nulla accumsan venenatis aliquet, est quam iaculis magna, nec facilisis nisl nisi non lectus. 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis nec libero a suscipit. In at volutpat lacus. Aliquam feugiat, nulla accumsan venenatis aliquet, est quam iaculis magna, nec facilisis nisl nisi non lectus. 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis nec libero a suscipit. In at volutpat lacus. Aliquam feugiat, nulla accumsan venenatis aliquet, est quam iaculis magna, nec facilisis nisl nisi non lectus. 
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis nec libero a suscipit. In at volutpat lacus. Aliquam feugiat, nulla accumsan venenatis aliquet, est quam iaculis magna, nec facilisis nisl nisi non lectus. 
     image: 'https://staging.iiifcloud.com/public/resources/efac8a99-659f-40eb-98d9-94f63fc37124/content#.jpg'
     url: /about
     background_position: right
@@ -54,7 +59,25 @@ sections:
             overlay: Resources
             _template: image_link
     _template: multi_column
-  - _template: images
-  - _template: multi_column
+  - id: featured narratives
+    background: layout_alternate
+    top_margin: 'pt-[32px] lg:pt-[64px]'
+    bottom_margin: 'pb-[32px] lg:pb-[64px]'
+    title: Featured Narratives
+    columns:
+      - width: col-span-3
+        content:
+          - slug: /en/paths/Sample-Path
+            title: An Example Narrative
+            author: Rebecca
+            image: 'https://staging.iiifcloud.com/public/resources/ebb425c3-7e77-4677-bf30-f77723e0b11d/content#.jpg'
+            alt: Elmerton Cemetery
+            blurb: A short sample narrative featuring Elmerton Cemetery in Virginia
+            _template: card
+    _template: multi_column
+history:
+  - user_email: rebecca@performantsoftware.com
+    timestamp: 2026-11-02T05:23:11.409Z
+    user_id: user_3DH1fqywpNOZuWWUe70zy2m9h7k
 ---
 
