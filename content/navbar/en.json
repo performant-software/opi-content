@@ -34,12 +34,26 @@
       "_template": "URL"
     },
     {
-      "label": "About Us",
-      "href": "/en/pages/about",
-      "_template": "URL"
+      "label": "About",
+      "options": [
+        {
+          "label": "The Initiative",
+          "href": "/en/pages/about"
+        },
+        {
+          "label": "The Team",
+          "href": "/en/pages/team"
+        }
+      ],
+      "_template": "Dropdown"
     }
   ],
   "history": [
+    {
+      "user_email": "rebecca@performantsoftware.com",
+      "timestamp": "2026-11-02T05:02:46.298Z",
+      "user_id": "user_3DH1fqywpNOZuWWUe70zy2m9h7k"
+    },
     {
       "user_email": "rebecca@performantsoftware.com",
       "timestamp": "2026-11-02T04:55:17.949Z",
