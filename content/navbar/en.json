@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "label": "Explore",
+      "options": [
+        {
+          "label": "Map",
+          "href": "/en/search/places"
+        },
+        {
+          "label": "Narratives",
+          "href": "/en/paths"
+        },
+        {
+          "label": "Glossary",
+          "href": "/en/pages/glossary"
+        }
+      ],
+      "_template": "Dropdown"
+    },
+    {
+      "label": "Projects",
+      "href": "/en/pages/projects",
+      "_template": "URL"
+    },
+    {
+      "label": "Research & Resources",
+      "href": "/en/pages/research",
+      "_template": "URL"
+    },
+    {
+      "label": "Community",
+      "href": "/en/pages/community",
+      "_template": "URL"
+    },
+    {
+      "label": "About Us",
+      "href": "/en/pages/about",
+      "_template": "URL"
+    }
+  ],
+  "history": [
+    {
+      "user_email": "rebecca@performantsoftware.com",
+      "timestamp": "2026-11-02T04:55:17.949Z",
+      "user_id": "user_3DH1fqywpNOZuWWUe70zy2m9h7k"
+    }
+  ]
+}
